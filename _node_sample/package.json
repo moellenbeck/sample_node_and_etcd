@@ -1,0 +1,13 @@
+{
+  "name": "etcd_sample",
+  "version": "0.0.1",
+  "description": "A simple watcher for etcd",
+  "dependencies": {
+    "node-etcd": "^4.2.1"
+  },
+  "scripts": {
+		"start": "node watch.js"
+  },
+  "author": "martin.moellenbeck@5minds.de",
+  "license": "ISC"
+}
